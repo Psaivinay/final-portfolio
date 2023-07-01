@@ -1,0 +1,155 @@
+C:\Users\vinay punnamaraju pc\OneDrive\Desktop\vinayproject1.zip add this to <!DOCTYPE html>
+<html>
+<head>
+  <title>Vinay Portfolio</title>
+  <style>
+    /* Add your own CSS styles here */
+    body {
+      background-color: #f5f5f5;
+      color: #333333;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    p {
+      margin: 0;
+      font-size: 16px;
+    }
+
+    nav {
+      background-color: #333333;
+      padding: 10px;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    li {
+      margin: 0 10px;
+    }
+
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #ff00ff;
+    }
+
+    #content {
+      padding: 20px;
+    }
+
+    #about,
+    #skills,
+    #projects,
+    #resume {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .project {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #333333;
+      padding: 10px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Punnamaraju Sai Vinay</h1>
+    <p>Passionate Tech Explorer</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+    </ul>
+  </nav>
+  <div id="content">
+    <div id="about">
+      <h2>About Me</h2>
+      <p>A brief introduction of myself and my background</p>
+      <img src="C:\Users\vinay punnamaraju pc\OneDrive\Desktop\vinay.jpg" alt="My photo" width="200" height="200">
+    </div>
+    <div id="skills">
+      <h2>My Skills</h2>
+      <p>A list of my skills and proficiencies</p>
+      <ul>
+        <li>Python</li>
+        <li>HTML, CSS, Bootstrap</li>
+        <li>C++</li>
+      </ul>
+    </div>
+    <div id="projects">
+      <h2>My Projects</h2>
+      <p>A showcase of some of my projects and achievements</p>
+      <div class="project">
+  <a href="C:\Users\vinay punnamaraju pc\OneDrive\Desktop\vinayproject1.zip" download>
+    <img src="project1.jpg" alt="Project 1" width="300" height="200">
+  </a>
+  <h3>Project 1</h3>
+  <p>A brief description of project 1</p>
+</div>
+
+
+      <div class="project">
+        <img src="project_2.jpg" alt="Project 2" width="300" height="200">
+        <h3>Project 2</h3>
+        <p>A brief description of project 2</p>
+        <a href="project_2_link">View project</a>
+      </div>
+    </div>
+    <div id="resume">
+      <h2>Resume</h2>
+      <p>Your resume/CV content goes here</p>
+    </div>
+  </div>
+  <footer>
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
